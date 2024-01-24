@@ -401,8 +401,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "greenpak_pogo"
+    ],
+    "pinned_symbol_libs": [
+      "greenpak_pogo"
+    ]
   },
   "meta": {
     "filename": "greenpak_pogo.kicad_pro",
