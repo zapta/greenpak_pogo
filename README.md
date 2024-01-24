@@ -39,7 +39,7 @@ The solder jumper on the Pogo Probe allows to connect or disconnect the VCC powe
 
 # Pullup resistors
 
-The Pogo Probe has two footprints for pullup resistors for the SDA and SCL signals respectivly. Populating them with 5K to 10K 0402 resistors should work well in most cases.
+The Pogo Probe has two footprints for pullup resistors for the SDA and SCL signals respectivly. Populating them with 5K to 10K 0402 resistors should work well in most cases. If the circuit being programmed or the I2C master used to program already contain pullup resistors, they can be dropped.
 
 # Programming socket
 
