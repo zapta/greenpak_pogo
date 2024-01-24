@@ -1,6 +1,6 @@
 # GreenPAK Programming Pogo Probe
 
-This project provides a standard footprint and a pogo probe for in-circuit programming of Renesas GreenPAK 
+This project provides a standard footprint and a Pogo Probe for in-circuit programming of Renesas GreenPAK 
 devices. This can be used for example in production after populating the board with factory reset GreenPAK devices.
 
 <br>
@@ -26,11 +26,15 @@ We use common pogo pins from Aliexpress, the 5mm ones from https://www.aliexpres
 
 The connector is JST SH 1.5mm 4pin, SMD, horizontal, and is common on Aliexpress as well as short cables with matching QWIIC connectors on both ends. This is the same connector that is used by the QWIIC and STEMMA QT eco system and follows their pinout.  
 
-Note that this pinout is differnet from the one used on the Renesas programmer.
+| :warning: WARNING          |
+|:---------------------------|
+| The connecor follows the QWIIC pinout conventions and which are different from the pinout of the Renesas programmer.  If you are using the Pogo Probe with the Renesas programmer, pay attention to the wiring.    |
+
+
 
 # Power jumper
 
-The solder jumper on the pogo probe allows to connect or disconnect the VCC power of the programmer and the programmed board. By default it's disconnected and if needed, you can connect it with a drop of solder. 
+The solder jumper on the Pogo Probe allows to connect or disconnect the VCC power of the programmer and the programmed board. By default it's disconnected and if needed, you can connect it with a drop of solder. 
 
 # Programming socket
 
@@ -46,7 +50,7 @@ PCB footprint:
 
 # Programming
 
-We use a boards that are compatible with the Python ``i2c_adapter`` packge and the Python ``greenpak`` to program the boards. For example, if you use the SparkFun Pro Micro - RP2040 which contains a QWIIC connector, you can use a standard QWIIC cable to connect it to the pogo probe. Programming typically taks about 1 sec such that placing and holding the probe and hitting the program key is straight forward.
+We use a boards that are compatible with the Python ``i2c_adapter`` packge and the Python ``greenpak`` to program the boards. For example, if you use the SparkFun Pro Micro - RP2040 which contains a QWIIC connector, you can use a standard QWIIC cable to connect it to the Pogo Probe. Programming typically taks about 1 sec such that placing and holding the probe and hitting the program key is straight forward.
 
 # Pin pattern
 
