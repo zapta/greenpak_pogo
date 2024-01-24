@@ -36,6 +36,11 @@ The connector is JST SH 1.0mm 4pin, SMD, horizontal, and is common on Aliexpress
 
 The solder jumper on the Pogo Probe allows to connect or disconnect the VCC power of the programmer and the programmed board. By default it's disconnected and if needed, you can connect it with a drop of solder. 
 
+
+# Pullup resistors
+
+The Pogo Probe has two footprints for pullup resistors for the SDA and SCL signals respectivly. Populating them with 5K to 10K 0402 resistors should work well in most cases.
+
 # Programming socket
 
 Kicad comaptible symbol and footprint for the programming socket are available in the kicad directory of this repository.
