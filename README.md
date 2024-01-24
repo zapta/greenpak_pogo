@@ -24,7 +24,7 @@ We use common pogo pins from Aliexpress, the 5mm ones from https://www.aliexpres
 
 # Connector
 
-The connector is JST SH 1.5mm 4pin, SMD, horizontal, and is common on Aliexpress as well as short cables with matching QWIIC connectors on both ends. This is the same connector that is used by the QWIIC and STEMMA QT eco system and follows their pinout.  
+The connector is JST SH 1.0mm 4pin, SMD, horizontal, and is common on Aliexpress as well as short cables with matching QWIIC connectors on both ends. This is the same connector that is used by the QWIIC and STEMMA QT eco system and follows their pinout.  
 
 | :warning: WARNING          |
 |:---------------------------|
