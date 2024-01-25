@@ -5,7 +5,7 @@ devices. This can be used for example in production after populating the board w
 
 <br>
 
-<img  src="https://raw.githubusercontent.com/zapta/greenpak_pogo/main/www/greenpak_pogo.png"
+<img  src="www/greenpak_pogo.png"
       style="display: block;margin-left: auto;margin-right: auto;width: 80%;" />
 
 Highlights:
@@ -20,7 +20,8 @@ Highlights:
 
 We use common pogo pins from Aliexpress, the 5mm ones from https://www.aliexpress.us/item/3256803830386881.html. The diagram belows shows the advertised dimensions on Aliexpress, note that there are two 3.5mm dimensions, the longer of the two is actually 5mm. Also, the diameter of the base is 2mm.
 
-![Footprint](www/pogo_pin_dimensions.png)
+<img  src="www/pogo_pin_dimensions.png"
+      style="display: block;margin-left: auto;margin-right: auto;width: 400px;" />
 
 # Connector
 
@@ -45,13 +46,21 @@ The Pogo Probe has two footprints for pullup resistors for the SDA and SCL signa
 
 Kicad comaptible symbol and footprint for the programming socket are available in the kicad directory of this repository.
 
+<br>
+
 Schematic symbol:
 
-![Footprint](www/symbol.png)
+<img  src="www/symbol.png"
+      style="display: block;margin-left: auto;margin-right: auto;width: 300px;" />
+
+
+<br>
 
 PCB footprint:
 
-![Footprint](www/footprint.png)
+<img  src="www/footprint.png"
+      style="display: block;margin-left: auto;margin-right: auto;width: 300px;" />
+
 
 # Programming
 
