@@ -16,6 +16,12 @@ Highlights:
 * Can provide power to the programmed device.
 * A single programming socket can support multiple GreenPAK devices on the same board.
 
+# Schematic
+
+<img  src="www/schematic.png"
+      style="display: block;margin-left: auto;margin-right: auto;width: 100%;" />
+
+
 # Pogo pins
 
 We use common pogo pins from Aliexpress, the 5mm ones from https://www.aliexpress.us/item/3256803830386881.html. The diagram belows shows the advertised dimensions on Aliexpress, note that there are two 3.5mm dimensions, the longer of the two is actually 5mm. Also, the diameter of the base is 2mm.
@@ -68,6 +74,7 @@ PCB pads dimensions:
 <img  src="www/socket_dimensions.svg"
       style="display: block;margin-left: auto;margin-right: auto;width: 70%;" />    
 
+Top view, in mm. 
 
 # Programming
 
@@ -78,8 +85,8 @@ We use a boards that are compatible with the Python ``i2c_adapter`` packge and t
 This pin patter was selected with these goals
 
 * Small footprint.
-* Non symetric, with only one right way to connect it.
-* If power from the probe is not used, it can be reduced to 3 pins probe.
+* Non symetric, with only one 'right way' to connect it.
+* Rounded dimensions in mm, vs mills. Introduced in V02.
 
 # PCB order
 
