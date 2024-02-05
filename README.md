@@ -61,6 +61,13 @@ PCB footprint:
 <img  src="www/footprint.png"
       style="display: block;margin-left: auto;margin-right: auto;width: 300px;" />
 
+<br>
+
+PCB pads dimensions:
+
+<img  src="www/socket_dimensions.svg"
+      style="display: block;margin-left: auto;margin-right: auto;width: 70%;" />    
+
 
 # Programming
 
