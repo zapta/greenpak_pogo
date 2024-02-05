@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|-1951327|719821|cea6b682-b9e5-46ef-9116-24cdff84b32e|00bb5a29-cf24-4d44-a74b-49441df14010",
+        "clearance|-751327|-1380179|62d20c03-afd9-4167-bcb9-135bde98d48a|b1e3e8b7-bb42-4d94-8045-beca00b8659e",
+        "clearance|2848673|719821|d541189e-6b39-4f6c-a006-2098cb63b64b|6606ff87-f776-49f8-8d97-3674ec8e63a9",
+        "clearance|448673|719821|00178aa2-d556-444a-8bff-ece77d03330e|86d18cee-9156-4859-99b6-1ee2092b7351",
+        "solder_mask_bridge|-1951327|719821|00bb5a29-cf24-4d44-a74b-49441df14010|cea6b682-b9e5-46ef-9116-24cdff84b32e",
+        "solder_mask_bridge|-751327|-1380179|b1e3e8b7-bb42-4d94-8045-beca00b8659e|62d20c03-afd9-4167-bcb9-135bde98d48a",
+        "solder_mask_bridge|2848673|719821|6606ff87-f776-49f8-8d97-3674ec8e63a9|d541189e-6b39-4f6c-a006-2098cb63b64b",
+        "solder_mask_bridge|448673|719821|86d18cee-9156-4859-99b6-1ee2092b7351|00178aa2-d556-444a-8bff-ece77d03330e"
+      ],
       "meta": {
         "version": 2
       },
@@ -87,9 +96,9 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
